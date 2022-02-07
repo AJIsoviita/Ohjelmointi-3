@@ -18,7 +18,7 @@ public class StandingsTest {
     System.out.println("Initial standings:");
     standings.printStandings();
 
-    for(int i = 2; i + 3 < args.length; i += 4) {
+   for(int i = 2; i + 3 < args.length; i += 4) {
       standings.addMatchResult(args[i], Integer.parseInt(args[i + 1]),
               Integer.parseInt(args[i + 2]), args[i + 3]);
     }
