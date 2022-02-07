@@ -33,5 +33,4 @@ public class StandingsTest {
     System.out.format("%nTeam standings after reading even more matches:%n");
     standings.printStandings();
   }
-
 }
